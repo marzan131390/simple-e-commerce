@@ -1,0 +1,34 @@
+.nav-item {
+    padding-right: 1.5rem;
+    font-weight: bold;
+}
+.header-bg {
+    background-color: #FFFBF0;
+}
+.my-button {
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(#A2BA43,#86A21B );
+    text-transform: uppercase;
+    color: #fff;
+}
+.body-sec {
+    margin-top: -8rem;
+}
+h2 span {
+    color: #86A21B;
+}
+.descrip-cont h2 {
+    font-size: 50px;
+}
+.img-cont {
+    background: url("../Logo-Icon/Group\ 33091.png") no-repeat;
+    background-position-y: bottom;
+    
+}
+.jacket-cont h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}

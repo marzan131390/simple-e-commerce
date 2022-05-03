@@ -22,16 +22,31 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.nav-link li {
+.nav-link li a{
     font-size: 1.3rem;
     font-weight: 900;
     color: rgb(23, 22, 22);
 }
-.nav-link li:hover, .nav-link .active{
+.nav-link li a:hover, .nav-link .active a{
     color: #89a810;
     cursor: pointer;
 }
-
+.dropdown{
+    position: absolute;
+    right: -9999px;
+}
+.dropdown li{
+    margin: 1rem;
+    background-color: #90EE90;
+    padding: .7rem 1.8rem;
+   border-radius: 1rem;
+}
+.drop-down-container:hover .dropdown{
+    right: 21vw;
+    transition: all .5s ease;
+   
+    
+}
 .nav-logo img{
     width: 25vw;
 }

@@ -5,6 +5,13 @@
 .header-bg {
     background-color: #FFFBF0;
 }
+.dropdown a{
+    font-size: 1.2rem;
+    color: #777570;
+}
+.dropdown a:hover{
+    color: #4F4E4B;
+}
 .my-button {
     padding: 1rem 2.5rem;
     border: none;
@@ -12,6 +19,9 @@
     background: linear-gradient(#A2BA43,#86A21B );
     text-transform: uppercase;
     color: #fff;
+}
+.my-button:hover {
+    background: linear-gradient(#859d25,#404f03 );
 }
 .body-sec {
     margin-top: -8rem;
@@ -55,13 +65,22 @@ h2 span {
     margin: 20vh 9%;
     display: grid;
     grid-template-columns: 1fr, 4fr;
+    margin-bottom: 0;
 }
 .img-content img{
     width: 7vw;
 }
 .content-container{
     display: flex;
+    flex-direction: column;
 }
 .content-img img{
     width: 100%;
+}
+[class^="content-"] {
+    display: flex;
+    gap: 3rem;
+}
+.text-content h3{
+    color: #363958;
 }
